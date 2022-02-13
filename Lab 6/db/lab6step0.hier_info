@@ -1,0 +1,141 @@
+|lab6step0
+N0[0] <= binary_decimal_converter:inst2.W
+N0[1] <= binary_decimal_converter:inst2.X
+N0[2] <= binary_decimal_converter:inst2.Y
+N0[3] <= binary_decimal_converter:inst2.Z
+N3[0] => adder_4bit:inst.X0
+N3[1] => adder_4bit:inst.X1
+N3[2] => adder_4bit:inst.X2
+N3[3] => adder_4bit:inst.X3
+N2[0] => adder_4bit:inst.Y0
+N2[1] => adder_4bit:inst.Y1
+N2[2] => adder_4bit:inst.Y2
+N2[3] => adder_4bit:inst.Y3
+Cin => adder_4bit:inst.Ci
+N1[0] <= binary_decimal_converter:inst2.W2
+N1[1] <= binary_decimal_converter:inst2.X2
+N1[2] <= binary_decimal_converter:inst2.Y2
+N1[3] <= binary_decimal_converter:inst2.Z2
+
+
+|lab6step0|binary_decimal_converter:inst2
+s0 => W.DATAIN
+s1 => W2.IN1
+s1 => W2.IN1
+s1 => Z.IN1
+s1 => Y.IN1
+s1 => X.IN1
+s1 => X.IN1
+s1 => X.IN1
+s1 => Z.IN1
+s1 => Z.IN1
+s1 => Y.IN1
+s1 => X.IN1
+s1 => X.IN1
+s2 => X2.IN0
+s2 => W2.IN1
+s2 => W2.IN0
+s2 => Z.IN1
+s2 => Y.IN1
+s2 => Y.IN0
+s2 => X.IN0
+s2 => W2.IN1
+s2 => Z.IN1
+s2 => Y.IN1
+s2 => Y.IN0
+s3 => X2.IN0
+s3 => W2.IN0
+s3 => W2.IN1
+s3 => W2.IN0
+s3 => Y.IN0
+s3 => X.IN1
+c0 => X2.IN1
+c0 => X2.IN1
+c0 => W2.IN1
+c0 => Y.IN1
+c0 => W2.IN1
+c0 => Y.IN1
+c0 => Y.IN1
+Z2 <= <GND>
+Y2 <= <GND>
+X2 <= X2.DB_MAX_OUTPUT_PORT_TYPE
+W2 <= W2.DB_MAX_OUTPUT_PORT_TYPE
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+X <= X.DB_MAX_OUTPUT_PORT_TYPE
+W <= s0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6step0|adder_4bit:inst
+X3 => X3.IN1
+Y3 => Y3.IN1
+X2 => X2.IN1
+Y2 => Y2.IN1
+X1 => X1.IN1
+Y1 => Y1.IN1
+X0 => X0.IN1
+Y0 => Y0.IN1
+Ci => Ci.IN1
+S3 <= full_adder:b2v_inst.SUM
+Co <= full_adder:b2v_inst.Co
+S2 <= full_adder:b2v_inst6.SUM
+S1 <= full_adder:b2v_inst7.SUM
+S0 <= full_adder:b2v_inst8.SUM
+
+
+|lab6step0|adder_4bit:inst|full_adder:b2v_inst
+X => SYNTHESIZED_WIRE_0.IN0
+X => SYNTHESIZED_WIRE_3.IN0
+X => SYNTHESIZED_WIRE_1.IN0
+Y => SYNTHESIZED_WIRE_0.IN1
+Y => SYNTHESIZED_WIRE_1.IN1
+Y => SYNTHESIZED_WIRE_2.IN0
+Ci => SUM.IN1
+Ci => SYNTHESIZED_WIRE_3.IN1
+Ci => SYNTHESIZED_WIRE_2.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6step0|adder_4bit:inst|full_adder:b2v_inst6
+X => SYNTHESIZED_WIRE_0.IN0
+X => SYNTHESIZED_WIRE_3.IN0
+X => SYNTHESIZED_WIRE_1.IN0
+Y => SYNTHESIZED_WIRE_0.IN1
+Y => SYNTHESIZED_WIRE_1.IN1
+Y => SYNTHESIZED_WIRE_2.IN0
+Ci => SUM.IN1
+Ci => SYNTHESIZED_WIRE_3.IN1
+Ci => SYNTHESIZED_WIRE_2.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6step0|adder_4bit:inst|full_adder:b2v_inst7
+X => SYNTHESIZED_WIRE_0.IN0
+X => SYNTHESIZED_WIRE_3.IN0
+X => SYNTHESIZED_WIRE_1.IN0
+Y => SYNTHESIZED_WIRE_0.IN1
+Y => SYNTHESIZED_WIRE_1.IN1
+Y => SYNTHESIZED_WIRE_2.IN0
+Ci => SUM.IN1
+Ci => SYNTHESIZED_WIRE_3.IN1
+Ci => SYNTHESIZED_WIRE_2.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6step0|adder_4bit:inst|full_adder:b2v_inst8
+X => SYNTHESIZED_WIRE_0.IN0
+X => SYNTHESIZED_WIRE_3.IN0
+X => SYNTHESIZED_WIRE_1.IN0
+Y => SYNTHESIZED_WIRE_0.IN1
+Y => SYNTHESIZED_WIRE_1.IN1
+Y => SYNTHESIZED_WIRE_2.IN0
+Ci => SUM.IN1
+Ci => SYNTHESIZED_WIRE_3.IN1
+Ci => SYNTHESIZED_WIRE_2.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,342 @@
+# Compile of lab8step2.v was successful.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab8step2
+# vsim -gui work.lab8step2 
+# Start time: 00:51:25 on Oct 30,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab8step2(fast)
+do lab8step2sim.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rjlawson  Hostname: WINLAB-CPRE-44  ProcessID: 5324
+#           Attempting to use alternate WLF file "./wlft22jqya".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft22jqya
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S1'.
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S0'.
+# Error in macro ./lab8step2sim.do line 15
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S1'.
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S1 \
+# sim:/lab8step2/S..."
+do lab8step2sim.do
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S1'.
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S0'.
+# Error in macro ./lab8step2sim.do line 15
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S1'.
+# ** UI-Msg: (vish-4014) No objects found matching '/lab8step2/S0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S1 \
+# sim:/lab8step2/S..."
+do lab8step2sim.do
+do lab8step2sim.do
+do lab8step2sim.do
+# ** UI-Msg (suppressible): (vsim-4008) Object 'sim:/lab8step2/S1' not found.
+# Error in macro ./lab8step2sim.do line 23
+# ** UI-Msg (suppressible): (vsim-4008) Object 'sim:/lab8step2/S1' not found.
+# 
+#     while executing
+# "force -freeze sim:/lab8step2/S1 0 0"
+do lab8step2sim.do
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S \
+# sim:/lab8step2/X_..."
+quit -sim
+# End time: 01:02:49 on Oct 30,2020, Elapsed time: 0:11:24
+# Errors: 0, Warnings: 7
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/lab8step2.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:03:30 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/lab8step2.v 
+# -- Compiling module lab8step2
+# 
+# Top level modules:
+# 	lab8step2
+# End time: 01:03:30 on Oct 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/mux4to1.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:03:30 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/mux4to1.v 
+# -- Compiling module mux4to1
+# 
+# Top level modules:
+# 	mux4to1
+# End time: 01:03:30 on Oct 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.lab8step2
+# vsim -gui work.lab8step2 
+# Start time: 01:03:44 on Oct 30,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab8step2(fast)
+do lab8step2sim.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rjlawson  Hostname: WINLAB-CPRE-44  ProcessID: 5324
+#           Attempting to use alternate WLF file "./wlft0f3i9b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0f3i9b
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S \
+# sim:/lab8step2/X_..."
+quit -sim
+# End time: 01:07:20 on Oct 30,2020, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 3
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/lab8step2.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:07:22 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/lab8step2.v 
+# -- Compiling module lab8step2
+# 
+# Top level modules:
+# 	lab8step2
+# End time: 01:07:23 on Oct 30,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/mux4to1.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:07:23 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/mux4to1.v 
+# -- Compiling module mux4to1
+# 
+# Top level modules:
+# 	mux4to1
+# End time: 01:07:23 on Oct 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.lab8step2
+# vsim -gui work.lab8step2 
+# Start time: 01:07:32 on Oct 30,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab8step2(fast)
+do lab8step2sim.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rjlawson  Hostname: WINLAB-CPRE-44  ProcessID: 5324
+#           Attempting to use alternate WLF file "./wlfte52k37".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte52k37
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S \
+# sim:/lab8step2/X_..."
+quit -sim
+# End time: 01:08:51 on Oct 30,2020, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 3
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/lab8step2.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:08:55 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/lab8step2.v 
+# -- Compiling module lab8step2
+# 
+# Top level modules:
+# 	lab8step2
+# End time: 01:08:55 on Oct 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/mux4to1.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:08:55 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/mux4to1.v 
+# -- Compiling module mux4to1
+# 
+# Top level modules:
+# 	mux4to1
+# End time: 01:08:56 on Oct 30,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -gui work.lab8step2
+# vsim -gui work.lab8step2 
+# Start time: 01:09:05 on Oct 30,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab8step2(fast)
+do lab8step2sim.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rjlawson  Hostname: WINLAB-CPRE-44  ProcessID: 5324
+#           Attempting to use alternate WLF file "./wlft7zt0y4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7zt0y4
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S \
+# sim:/lab8step2/X_..."
+quit -sim
+# End time: 01:12:43 on Oct 30,2020, Elapsed time: 0:03:38
+# Errors: 0, Warnings: 3
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/lab8step2.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:14:08 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/lab8step2.v 
+# -- Compiling module lab8step2
+# 
+# Top level modules:
+# 	lab8step2
+# End time: 01:14:08 on Oct 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 8/lab8step2/mux4to1.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 01:14:09 on Oct 30,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 8/lab8step2/mux4to1.v 
+# -- Compiling module mux4to1
+# 
+# Top level modules:
+# 	mux4to1
+# End time: 01:14:09 on Oct 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.lab8step2
+# vsim -gui work.lab8step2 
+# Start time: 01:14:16 on Oct 30,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab8step2(fast)
+do lab8step2sim.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rjlawson  Hostname: WINLAB-CPRE-44  ProcessID: 5324
+#           Attempting to use alternate WLF file "./wlftai3t4v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftai3t4v
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S \
+# sim:/lab8step2/X_..."
+do lab8step2sim.do
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S \
+# sim:/lab8step2/X_..."
+do lab8step2sim.do
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 12
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S[0] \
+# sim:/lab8step2..."
+
+
+do lab8step2sim.do
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+# Error in macro ./lab8step2sim.do line 12
+# ** UI-Msg: (vish-4014) No objects found matching 'force'.
+# Unrecognized option: "-freeze" ignored.
+# ** UI-Msg: (vish-4014) No objects found matching '1'.
+# ** UI-Msg: (vish-4014) No objects found matching '0'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/lab8step2/X0 \
+# sim:/lab8step2/X1 \
+# sim:/lab8step2/X2 \
+# sim:/lab8step2/X3 \
+# sim:/lab8step2/S[0] \
+# sim:/lab8step2..."
+do lab8step2sim.do
+# ** UI-Msg (suppressible): (vsim-4008) Object 'sim:/lab8step2/S1' not found.
+# Error in macro ./lab8step2sim.do line 19
+# ** UI-Msg (suppressible): (vsim-4008) Object 'sim:/lab8step2/S1' not found.
+# 
+#     while executing
+# "force -freeze sim:/lab8step2/S1 0 0"
+do lab8step2sim.do
+do lab8step2sim.do
+do lab8step2sim.do
+quit -sim
+# End time: 01:30:38 on Oct 30,2020, Elapsed time: 0:16:22
+# Errors: 0, Warnings: 3
+cd {U:/CPR E 281/Lab 8/mux4to1}

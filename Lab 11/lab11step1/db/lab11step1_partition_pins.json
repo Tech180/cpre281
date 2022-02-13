@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "w",
+					"strict" : false
+				},
+				{
+					"name" : "PRN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

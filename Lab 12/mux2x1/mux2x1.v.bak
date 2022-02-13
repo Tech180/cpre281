@@ -1,0 +1,8 @@
+module mux2x1(Y, S, l1, l0);
+	input l0, l1, S;
+	output Y;
+	
+	assign Y = S ? l1 : l0;
+	
+endmodule
+	

@@ -1,0 +1,8 @@
+C:/Users/amnazar/Downloads/Lab1/lab1step2/lab1step2/lab1step2.v {1 {vlog -work work -vopt -stats=none C:/Users/amnazar/Downloads/Lab1/lab1step2/lab1step2/lab1step2.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module lab1step2
+
+Top level modules:
+	lab1step2
+
+} {} {}}

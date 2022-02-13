@@ -1,0 +1,29 @@
+# Compile of lab1step2.v was successful.
+# Load canceled
+# Compile of lab1step2.v was successful.
+# Compile of lab1step3.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab1step2
+# vsim -gui work.lab1step2 
+# Start time: 09:27:34 on Aug 28,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab1step2(fast)
+force -freeze sim:/lab1step2/W 1'h1 0
+add wave -position insertpoint  \
+sim:/lab1step2/W \
+sim:/lab1step2/X \
+sim:/lab1step2/Y \
+sim:/lab1step2/C
+force -freeze sim:/lab1step2/X 1'h0 0
+force -freeze sim:/lab1step2/Y 1'h0 0
+force -freeze sim:/lab1step2/C 1'h0 0
+force -freeze sim:/lab1step2/W 1'hz 0
+force -freeze sim:/lab1step2/W 1'h1 0
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+# End time: 09:43:16 on Aug 28,2020, Elapsed time: 0:15:42
+# Errors: 0, Warnings: 7

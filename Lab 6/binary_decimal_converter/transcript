@@ -1,0 +1,50 @@
+# Compile of lab6step0.v was successful.
+# Compile of binary_decimal_converter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab6step0
+# vsim -gui work.lab6step0 
+# Start time: 16:03:31 on Oct 13,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPR E 281/Lab 6/lab6step0.v(47): Module 'adder_4bit' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 16:03:36 on Oct 13,2020, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 6
+# Compile of lab6step0.v was successful.
+# Compile of binary_decimal_converter.v was successful.
+# Compile of adder_4bit.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab6step0
+# vsim -gui work.lab6step0 
+# Start time: 16:15:15 on Oct 13,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPR E 281/Lab 6/adder_4bit.v(61): Module 'full_adder' is not defined.
+# ** Error: U:/CPR E 281/Lab 6/adder_4bit.v(69): Module 'full_adder' is not defined.
+# ** Error: U:/CPR E 281/Lab 6/adder_4bit.v(77): Module 'full_adder' is not defined.
+# ** Error: U:/CPR E 281/Lab 6/adder_4bit.v(85): Module 'full_adder' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=4, Warnings=0.
+# Error loading design
+# End time: 16:15:20 on Oct 13,2020, Elapsed time: 0:00:05
+# Errors: 4, Warnings: 3
+# Compile of lab6step0.v was successful.
+# Compile of binary_decimal_converter.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of full_adder.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.lab6step0
+# vsim -gui work.lab6step0 
+# Start time: 16:28:12 on Oct 13,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab6step0(fast)
+add wave -position insertpoint  \
+sim:/lab6step0/Cin \
+sim:/lab6step0/N2 \
+sim:/lab6step0/N3 \
+sim:/lab6step0/N0 \
+sim:/lab6step0/N1
+do lab06.do
+# Causality operation skipped due to absence of debug database file
+# End time: 16:35:58 on Oct 13,2020, Elapsed time: 0:07:46
+# Errors: 0, Warnings: 3

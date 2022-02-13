@@ -1,0 +1,267 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -176 88 -8 104)
+	(text "INPUT" (rect 125 0 161 13)(font "Arial" (font_size 6)))
+	(text "P" (rect 5 0 15 15)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -176 144 -8 160)
+	(text "INPUT" (rect 125 0 161 13)(font "Arial" (font_size 6)))
+	(text "H" (rect 5 0 15 19)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -176 200 -8 216)
+	(text "INPUT" (rect 125 0 161 13)(font "Arial" (font_size 6)))
+	(text "T" (rect 5 0 14 19)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -168 416 0 432)
+	(text "INPUT" (rect 125 0 161 13)(font "Arial" (font_size 6)))
+	(text "M" (rect 5 0 17 19)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 840 216 1016 232)
+	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
+	(text "AC" (rect 90 0 108 15)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(block
+	(rect 280 16 456 208)
+	(text "Normal" (rect 5 5 56 25)(font "Intel Clear" (font_size 8)))	(text "inst" (rect 5 170 28 189)(font "Intel Clear" ))	(block_io "P" (input))
+	(block_io "T" (input))
+	(block_io "H" (input))
+	(block_io "E" (output))
+	(mapper
+		(pt 0 96)
+		(bidir)
+		)
+	(mapper
+		(pt 176 88)
+		(bidir)
+		)
+)
+(block
+	(rect 280 264 456 472)
+	(text "powersaving" (rect 5 5 94 25)(font "Intel Clear" (font_size 8)))	(text "inst1" (rect 5 186 36 205)(font "Intel Clear" ))	(block_io "P" (input))
+	(block_io "T" (input))
+	(block_io "H" (input))
+	(block_io "F" (output))
+	(mapper
+		(pt 176 80)
+		(bidir)
+		)
+	(mapper
+		(pt 0 88)
+		(bidir)
+		)
+)
+(block
+	(rect 560 120 704 320)
+	(text "Multiplexer" (rect 5 5 85 25)(font "Intel Clear" (font_size 8)))	(text "inst3" (rect 5 178 36 197)(font "Intel Clear" ))	(block_io "E" (input))
+	(block_io "F" (input))
+	(block_io "M" (input))
+	(block_io "AC" (output))
+	(mapper
+		(pt 0 128)
+		(bidir)
+		)
+	(mapper
+		(pt 0 176)
+		(bidir)
+		)
+	(mapper
+		(pt 0 192)
+		(bidir)
+		)
+	(mapper
+		(pt 144 104)
+		(bidir)
+		)
+)
+(connector
+	(pt -8 208)
+	(pt 96 208)
+	(conduit)
+)
+(connector
+	(pt -8 96)
+	(pt 96 96)
+	(conduit)
+)
+(connector
+	(pt 96 96)
+	(pt 96 152)
+	(conduit)
+)
+(connector
+	(pt 96 152)
+	(pt 96 208)
+	(conduit)
+)
+(connector
+	(pt -8 152)
+	(pt 96 152)
+	(conduit)
+)
+(connector
+	(pt 96 152)
+	(pt 200 152)
+	(conduit)
+)
+(connector
+	(pt 560 248)
+	(pt 488 248)
+	(conduit)
+)
+(connector
+	(pt 560 296)
+	(pt 496 296)
+	(conduit)
+)
+(connector
+	(pt 528 312)
+	(pt 560 312)
+	(conduit)
+)
+(connector
+	(pt 704 224)
+	(pt 840 224)
+	(conduit)
+)
+(connector
+	(pt 8 424)
+	(pt 8 504)
+	(conduit)
+)
+(connector
+	(pt 0 424)
+	(pt 8 424)
+	(conduit)
+)
+(connector
+	(pt 8 504)
+	(pt 528 504)
+	(conduit)
+)
+(connector
+	(pt 528 312)
+	(pt 528 504)
+	(conduit)
+)
+(connector
+	(pt 200 352)
+	(pt 280 352)
+	(conduit)
+)
+(connector
+	(pt 200 112)
+	(pt 280 112)
+	(conduit)
+)
+(connector
+	(pt 488 248)
+	(pt 488 104)
+	(conduit)
+)
+(connector
+	(pt 488 104)
+	(pt 456 104)
+	(conduit)
+)
+(connector
+	(pt 200 112)
+	(pt 200 152)
+	(conduit)
+)
+(connector
+	(pt 200 152)
+	(pt 200 352)
+	(conduit)
+)
+(connector
+	(pt 496 344)
+	(pt 456 344)
+	(conduit)
+)
+(connector
+	(pt 496 296)
+	(pt 496 344)
+	(conduit)
+)
+(junction (pt 96 152))
+(junction (pt 200 152))

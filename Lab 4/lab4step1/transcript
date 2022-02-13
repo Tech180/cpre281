@@ -1,0 +1,18 @@
+# Compile of lab4step1.v was successful.
+# Compile of tb_step1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_step1
+# vsim -voptargs="+acc" work.tb_step1 
+# Start time: 21:58:23 on Sep 23,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_step1(fast)
+# Loading work.lab4step1(fast)
+add wave -position insertpoint  \
+sim:/tb_step1/F \
+sim:/tb_step1/C \
+sim:/tb_step1/G \
+sim:/tb_step1/W \
+sim:/tb_step1/A
+run
+# End time: 22:06:17 on Sep 23,2020, Elapsed time: 0:07:54
+# Errors: 0, Warnings: 5

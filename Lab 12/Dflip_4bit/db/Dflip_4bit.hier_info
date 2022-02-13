@@ -1,0 +1,14 @@
+|Dflip_4bit
+Q[0] <= <GND>
+Q[1] <= <GND>
+Q[2] <= <GND>
+Q[3] <= <GND>
+D[0] => ~NO_FANOUT~
+D[1] => ~NO_FANOUT~
+D[2] => ~NO_FANOUT~
+D[3] => ~NO_FANOUT~
+EN => ~NO_FANOUT~
+RST => ~NO_FANOUT~
+CLK => ~NO_FANOUT~
+
+

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Nov 17 00:47:29 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : lab11step2
+Top-level Entity Name : lab11step2
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 8 / 6,272 ( < 1 % )
+    Total combinational functions : 8 / 6,272 ( < 1 % )
+    Dedicated logic registers : 2 / 6,272 ( < 1 % )
+Total registers : 2
+Total pins : 7 / 92 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

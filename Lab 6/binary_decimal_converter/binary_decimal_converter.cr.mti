@@ -1,0 +1,8 @@
+{U:/CPR E 281/Lab 6/binary_decimal_converter/binary_decimal_converter.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 6/binary_decimal_converter/binary_decimal_converter.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module binary_decimal_converter
+
+Top level modules:
+	binary_decimal_converter
+
+} {} {}}

@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dU:/CPR E 281/Lab 11/lab11step1
+T_opt
+!s110 1605595784
+Vhbh^mYBg:ko76AY<[U=Ih2
+04 10 4 work lab11step2 fast 0
+=1-0050569bb038-5fb37287-1d1-27b4
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.2;71
+vcircuit_nsl
+Z1 !s110 1605595767
+!i10b 1
+!s100 YQR6IC2@PW2oI]Pa<m_]X3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ied;5QcSM3Y6CaAAPkj[WL1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dU:/CPR E 281/Lab 11/lab11step2
+w1605592337
+8U:/CPR E 281/Lab 11/lab11step2/circuit_nsl.v
+FU:/CPR E 281/Lab 11/lab11step2/circuit_nsl.v
+!i122 1
+L0 1 8
+Z5 OL;L;2020.2;71
+r1
+!s85 0
+31
+Z6 !s108 1605595767.000000
+!s107 U:/CPR E 281/Lab 11/lab11step2/circuit_nsl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 11/lab11step2/circuit_nsl.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vcircuit_ol
+R1
+!i10b 1
+!s100 MGMFXe3CNk=afAgliPKI<2
+R2
+I2ASi@H0ZGiY8>Xk`^oXCb2
+R3
+R4
+w1605594670
+8U:/CPR E 281/Lab 11/lab11step2/circuit_ol.v
+FU:/CPR E 281/Lab 11/lab11step2/circuit_ol.v
+!i122 2
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 U:/CPR E 281/Lab 11/lab11step2/circuit_ol.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 11/lab11step2/circuit_ol.v|
+!i113 0
+R7
+R0
+vlab11step2
+!s110 1605595766
+!i10b 1
+!s100 i4U4TZlQ8L7em`R;M_fTi1
+R2
+IlmO50[=S:c6M1SRVG=6392
+R3
+R4
+w1605595663
+8U:/CPR E 281/Lab 11/lab11step2/lab11step2.v
+FU:/CPR E 281/Lab 11/lab11step2/lab11step2.v
+!i122 0
+L0 20 79
+R5
+r1
+!s85 0
+31
+!s108 1605595766.000000
+!s107 U:/CPR E 281/Lab 11/lab11step2/lab11step2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 11/lab11step2/lab11step2.v|
+!i113 0
+R7
+R0

@@ -1,0 +1,46 @@
+# Compile of seven_seg_decoder.v was successful.
+vsim -gui work.seven_seg_decoder
+# vsim -gui work.seven_seg_decoder 
+# Start time: 14:45:20 on Sep 29,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.seven_seg_decoder(fast)
+add wave -position insertpoint  \
+sim:/seven_seg_decoder/x0 \
+sim:/seven_seg_decoder/x1 \
+sim:/seven_seg_decoder/x2 \
+sim:/seven_seg_decoder/x3 \
+sim:/seven_seg_decoder/A \
+sim:/seven_seg_decoder/B \
+sim:/seven_seg_decoder/C \
+sim:/seven_seg_decoder/D \
+sim:/seven_seg_decoder/E \
+sim:/seven_seg_decoder/F \
+sim:/seven_seg_decoder/G
+do lab5step0
+# Cannot open macro file: lab5step0
+do lab5step0.txt
+# Cannot open macro file: lab5step0.txt
+do lab5step0.do
+# Cannot open macro file: lab5step0.do
+do U:/CPR E 281/Lab 5/seven_seg_decoder/lab5step0.do.txt
+# Cannot open macro file: U:/CPR
+do U:/CPR\ E\ 281/Lab 5/seven_seg_decoder/lab5step0.do.txt
+# Cannot open macro file: U:/CPR E 281/Lab
+do U:/CPR\ E\ 281/Lab\ 5/seven_seg_decoder/lab5step0.do.txt
+# ** UI-Msg (suppressible): (vsim-4008) Object 'X3' not found.
+# Error in macro U:\CPR E 281\Lab 5\seven_seg_decoder\lab5step0.do.txt line 1
+# ** UI-Msg (suppressible): (vsim-4008) Object 'X3' not found.
+# 
+#     while executing
+# "force X3 0 0, 1 400 -repeat 800"
+# Causality operation skipped due to absence of debug database file
+do U:/CPR\ E\ 281/Lab\ 5/seven_seg_decoder/lab5step0.do.txt
+# ** UI-Msg (suppressible): (vsim-4008) Object 'X3' not found.
+# Error in macro U:\CPR E 281\Lab 5\seven_seg_decoder\lab5step0.do.txt line 1
+# ** UI-Msg (suppressible): (vsim-4008) Object 'X3' not found.
+# 
+#     while executing
+# "force X3 0 0, 1 400 -repeat 800"
+do U:/CPR\ E\ 281/Lab\ 5/seven_seg_decoder/lab5step0.do.txt
+# End time: 14:58:19 on Sep 29,2020, Elapsed time: 0:12:59
+# Errors: 0, Warnings: 5

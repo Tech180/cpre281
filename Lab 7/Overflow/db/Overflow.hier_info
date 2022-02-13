@@ -1,0 +1,96 @@
+|Overflow
+Cout <= 4bitRipple:inst.Cout
+X3 => 4bitRipple:inst.X3
+Y3 => inst1.IN0
+Control => inst1.IN1
+Control => inst2.IN1
+Control => inst3.IN1
+Control => inst4.IN1
+Control => 4bitRipple:inst.Cin
+X2 => 4bitRipple:inst.X2
+Y2 => inst2.IN0
+X1 => 4bitRipple:inst.X1
+Y1 => inst3.IN0
+X0 => 4bitRipple:inst.X0
+Y0 => inst4.IN0
+Overflow <= 4bitRipple:inst.Overflow
+S3 <= 4bitRipple:inst.S3
+S2 <= 4bitRipple:inst.S2
+S1 <= 4bitRipple:inst.S1
+S0 <= 4bitRipple:inst.S0
+
+
+|Overflow|4bitRipple:inst
+X3 => X3.IN1
+Y3 => Y3.IN1
+X2 => X2.IN1
+Y2 => Y2.IN1
+X1 => X1.IN1
+Y1 => Y1.IN1
+X0 => X0.IN1
+Y0 => Y0.IN1
+Cin => Cin.IN1
+S2 <= OnebitAdder:b2v_inst1.S
+S1 <= OnebitAdder:b2v_inst2.S
+S0 <= OnebitAdder:b2v_inst3.S
+S3 <= OnebitAdder:b2v_inst.S
+Cout <= OnebitAdder:b2v_inst.Cout
+Overflow <= Overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Overflow|4bitRipple:inst|OnebitAdder:b2v_inst
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+X => inst4.IN0
+X => inst.IN0
+Y => inst5.IN1
+Y => inst6.IN0
+Y => inst.IN1
+Cin => inst6.IN1
+Cin => inst4.IN1
+Cin => inst2.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Overflow|4bitRipple:inst|OnebitAdder:b2v_inst1
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+X => inst4.IN0
+X => inst.IN0
+Y => inst5.IN1
+Y => inst6.IN0
+Y => inst.IN1
+Cin => inst6.IN1
+Cin => inst4.IN1
+Cin => inst2.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Overflow|4bitRipple:inst|OnebitAdder:b2v_inst2
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+X => inst4.IN0
+X => inst.IN0
+Y => inst5.IN1
+Y => inst6.IN0
+Y => inst.IN1
+Cin => inst6.IN1
+Cin => inst4.IN1
+Cin => inst2.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Overflow|4bitRipple:inst|OnebitAdder:b2v_inst3
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+X => inst4.IN0
+X => inst.IN0
+Y => inst5.IN1
+Y => inst6.IN0
+Y => inst.IN1
+Cin => inst6.IN1
+Cin => inst4.IN1
+Cin => inst2.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

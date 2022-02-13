@@ -1,0 +1,21 @@
+
+force x15 0 0, 1 300 -repeat 600
+force x14 0 0, 1 240 -repeat 480
+force x13 0 0, 1 200 -repeat 400
+force x12 0 0, 1 180 -repeat 360
+force x11 0 0, 1 140 -repeat 280
+force x10 0 0, 1 120 -repeat 240
+force x9 0 0, 1 90 -repeat 180
+force x8 0 0, 1 80 -repeat 160
+force x7 0 0, 1 74 -repeat 148
+force x6 0 0, 1 60 -repeat 120
+force x5 0 0, 1 56 -repeat 112
+force x4 0 0, 1 49 -repeat 98
+force x3 0 0, 1 37 -repeat 74
+force x2 0 0, 1 25 -repeat 50
+force x1 0 0, 1 13 -repeat 26
+force x0 0 0, 1 5 -repeat 10
+
+run 600
+
+

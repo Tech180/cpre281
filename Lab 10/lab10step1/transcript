@@ -1,0 +1,85 @@
+# Compile of lab10step2a.v was successful.
+vsim -gui work.lab10step2a
+# vsim -gui work.lab10step2a 
+# Start time: 20:59:47 on Nov 11,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step2a(fast)
+add wave -position insertpoint  \
+sim:/lab10step2a/Clock \
+sim:/lab10step2a/Enable \
+sim:/lab10step2a/PRN \
+sim:/lab10step2a/CLRN \
+sim:/lab10step2a/Q0 \
+sim:/lab10step2a/Q1 \
+sim:/lab10step2a/Q2 \
+sim:/lab10step2a/Q3 \
+sim:/lab10step2a/Z
+do lab10step2&3.do
+quit -sim
+# End time: 21:03:56 on Nov 11,2020, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 5
+# reading C:/Program Files/modeltech64_2020.2/win64/../modelsim.ini
+# Loading project lab10step2b
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 21:05:22 on Nov 11,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step2b(fast)
+add wave -position insertpoint  \
+sim:/lab10step2b/Clock \
+sim:/lab10step2b/Enable \
+sim:/lab10step2b/PRN \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Q0 \
+sim:/lab10step2b/Q1 \
+sim:/lab10step2b/Q2 \
+sim:/lab10step2b/Q3 \
+sim:/lab10step2b/Z
+do lab10step2&3.do
+quit -sim
+# End time: 21:10:07 on Nov 11,2020, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 5
+# reading C:/Program Files/modeltech64_2020.2/win64/../modelsim.ini
+# Loading project lab10step3a
+# Compile of lab10step3a.v was successful.
+vsim -gui work.lab10step3a
+# vsim -gui work.lab10step3a 
+# Start time: 21:10:53 on Nov 11,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step3a(fast)
+add wave -position insertpoint  \
+sim:/lab10step3a/PRN \
+sim:/lab10step3a/Enable \
+sim:/lab10step3a/Clock \
+sim:/lab10step3a/CLRN \
+sim:/lab10step3a/Q0 \
+sim:/lab10step3a/Q1 \
+sim:/lab10step3a/Q3 \
+sim:/lab10step3a/Q2
+do lab10step2&3.do
+quit -sim
+# End time: 21:16:13 on Nov 11,2020, Elapsed time: 0:05:20
+# Errors: 0, Warnings: 5
+# reading C:/Program Files/modeltech64_2020.2/win64/../modelsim.ini
+# Loading project lab10step2b
+# reading C:/Program Files/modeltech64_2020.2/win64/../modelsim.ini
+# Loading project lab10step3b
+# Compile of lab10step3b.v was successful.
+vsim -gui work.lab10step3b
+# vsim -gui work.lab10step3b 
+# Start time: 21:17:22 on Nov 11,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step3b(fast)
+add wave -position insertpoint  \
+sim:/lab10step3b/PRN \
+sim:/lab10step3b/Enable \
+sim:/lab10step3b/Clock \
+sim:/lab10step3b/CLRN \
+sim:/lab10step3b/Q3 \
+sim:/lab10step3b/Q0 \
+sim:/lab10step3b/Q1 \
+sim:/lab10step3b/Q2
+do lab10step2&3.do
+# End time: 21:27:40 on Nov 11,2020, Elapsed time: 0:10:18
+# Errors: 0, Warnings: 7

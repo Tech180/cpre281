@@ -1,0 +1,14 @@
+|FA
+X => S.IN0
+X => Cout.IN0
+X => Cout.IN0
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

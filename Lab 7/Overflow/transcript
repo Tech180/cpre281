@@ -1,0 +1,63 @@
+# Compile of adder_4bit.v was successful.
+# Compile of FA.v was successful.
+# Compile of overflow1.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.overflow1
+# vsim -gui work.overflow1 
+# Start time: 19:20:51 on Oct 22,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.overflow1(fast)
+add wave -position insertpoint  \
+sim:/overflow1/Y3 \
+sim:/overflow1/X2 \
+sim:/overflow1/Y2 \
+sim:/overflow1/X1 \
+sim:/overflow1/Y1 \
+sim:/overflow1/X0 \
+sim:/overflow1/Y0 \
+sim:/overflow1/Control \
+sim:/overflow1/X3 \
+sim:/overflow1/Cout \
+sim:/overflow1/Overflow \
+sim:/overflow1/S3 \
+sim:/overflow1/S2 \
+sim:/overflow1/S1 \
+sim:/overflow1/S0
+# Causality operation skipped due to absence of debug database file
+do lab7sim.do
+# Cannot open macro file: lab7sim.do
+do lab7sim.do
+do lab7sim.do
+quit -sim
+# End time: 20:00:25 on Oct 22,2020, Elapsed time: 0:39:34
+# Errors: 0, Warnings: 6
+# reading C:/Program Files/modeltech64_2020.2/win64/../modelsim.ini
+# Loading project adder_4bit
+# Compile of adder_4bit.v was successful.
+# Compile of FA.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.adder_4bit
+# vsim -gui work.adder_4bit 
+# Start time: 20:01:55 on Oct 22,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.adder_4bit(fast)
+do lab7sim.do
+# ** UI-Msg: (vish-4014) No objects found matching '/Control'.
+# Error in macro ./lab7sim.do line 16
+# ** UI-Msg: (vish-4014) No objects found matching '/Control'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/X3 \
+# sim:/X2 \
+# sim:/X1 \
+# sim:/X0 \
+# sim:/Y3 \
+# sim:/Y2 \
+# sim:/Y1 \
+# sim:/Y0 \
+# sim:/Control \
+# sim:/S3 \
+# sim:/S2 \
+# s..."
+# End time: 20:02:19 on Oct 22,2020, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 5

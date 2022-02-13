@@ -1,0 +1,15 @@
+{U:/CPR E 281/Lab 4/lab4step1/tb_step1.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 4/lab4step1/tb_step1.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module tb_step1
+
+Top level modules:
+	tb_step1
+
+} {} {}} {U:/CPR E 281/Lab 4/lab4step1/lab4step1.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 4/lab4step1/lab4step1.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module lab4step1
+
+Top level modules:
+	lab4step1
+
+} {} {}}

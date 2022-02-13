@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 01 23:39:16 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : seven_seg_decoder
+Top-level Entity Name : seven_seg_decoder
+Family : Cyclone IV E
+Total logic elements : 7
+    Total combinational functions : 7
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

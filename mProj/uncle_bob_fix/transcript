@@ -1,0 +1,44 @@
+# Compile of uncle_bob_fix.v was successful.
+vsim -gui work.uncle_bob_fix
+# vsim -gui work.uncle_bob_fix 
+# Start time: 13:26:55 on Oct 08,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPR E 281/mProj/uncle_bob_fix/uncle_bob_fix.v(55): Module 'uncle_bob' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 13:27:03 on Oct 08,2020, Elapsed time: 0:00:08
+# Errors: 1, Warnings: 5
+vsim -gui work.uncle_bob_fix
+# vsim -gui work.uncle_bob_fix 
+# Start time: 13:27:31 on Oct 08,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPR E 281/mProj/uncle_bob_fix/uncle_bob_fix.v(55): Module 'uncle_bob' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 13:27:36 on Oct 08,2020, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 1
+# Compile of uncle_bob_fix.v was successful.
+# Load canceled
+# Compile of uncle_bob_fix.v was successful.
+# Compile of uncle_bob.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.uncle_bob_fix
+# vsim -gui work.uncle_bob_fix 
+# Start time: 13:29:20 on Oct 08,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.uncle_bob_fix(fast)
+add wave -position insertpoint  \
+sim:/uncle_bob_fix/W \
+sim:/uncle_bob_fix/X \
+sim:/uncle_bob_fix/Y \
+sim:/uncle_bob_fix/Z \
+sim:/uncle_bob_fix/P
+do miniproject.do.txt
+# Causality operation skipped due to absence of debug database file
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.uncle_bob_fix(fast)
+do miniproject.do.txt

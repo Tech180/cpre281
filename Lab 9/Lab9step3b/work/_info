@@ -1,0 +1,43 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dU:/CPR E 281/Lab 9/lab9step3c
+T_opt
+!s110 1604613438
+VT?fAbZHUeRNQA]OcU3:5e0
+04 10 4 work lab9step3b fast 0
+=1-0050569bbde9-5fa4753d-89-2dd8
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.2;71
+vlab9step3b
+!s110 1604613425
+!i10b 1
+!s100 cTN?nLH@ceV>B?Ao9dIPW0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I?zM2bboiSYzdAHTCK9g;21
+VDg1SIo80bB@j0V0VzS_@n1
+dU:/CPR E 281/Lab 9/Lab9step3b
+w1604613371
+8U:/CPR E 281/Lab 9/Lab9step3b/lab9step3b.v
+FU:/CPR E 281/Lab 9/Lab9step3b/lab9step3b.v
+!i122 1
+L0 20 39
+OL;L;2020.2;71
+r1
+!s85 0
+31
+!s108 1604613424.000000
+!s107 U:/CPR E 281/Lab 9/Lab9step3b/lab9step3b.v|
+!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|U:/CPR E 281/Lab 9/Lab9step3b/lab9step3b.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0

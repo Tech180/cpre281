@@ -1,0 +1,14 @@
+# Compile of lab9step3c.v was successful.
+vsim -gui work.lab9step3c
+# vsim -gui work.lab9step3c 
+# Start time: 16:18:27 on Nov 05,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab9step3c(fast)
+add wave -position insertpoint  \
+sim:/lab9step3c/Clock \
+sim:/lab9step3c/D \
+sim:/lab9step3c/Q \
+sim:/lab9step3c/Qn
+do lab9step2and3-1.do
+# End time: 16:27:07 on Nov 05,2020, Elapsed time: 0:08:40
+# Errors: 0, Warnings: 5

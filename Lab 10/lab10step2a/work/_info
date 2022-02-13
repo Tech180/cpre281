@@ -1,0 +1,43 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/CPR E 281/Lab 10/lab10step2a
+T_opt
+!s110 1605149991
+VT=gmVkM^O3cgRcD8:9dC`2
+04 11 4 work lab10step2a fast 0
+=1-0050569bc5df-5faca527-e8-10c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.2;71
+vlab10step2a
+!s110 1605149971
+!i10b 1
+!s100 gl1Mn^eZRbf3H;ah1LlV<0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+ISD5V`YaH6<EK5ciPac[kH0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605149796
+8U:/CPR E 281/Lab 10/lab10step2a/lab10step2a.v
+FU:/CPR E 281/Lab 10/lab10step2a/lab10step2a.v
+!i122 0
+L0 20 132
+OL;L;2020.2;71
+r1
+!s85 0
+31
+!s108 1605149971.000000
+!s107 U:/CPR E 281/Lab 10/lab10step2a/lab10step2a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 10/lab10step2a/lab10step2a.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

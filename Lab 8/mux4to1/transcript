@@ -1,0 +1,16 @@
+# Compile of lab8step2.v failed with 1 errors.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of lab8step2.v was successful.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab8step2
+# vsim -gui work.lab8step2 
+# Start time: 22:08:11 on Oct 29,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab8step2(fast)
+do lab08step02sim.do
+# Cannot open macro file: lab08step02sim.do
+do lab08step2sim.do
+# Cannot open macro file: lab08step2sim.do
+do lab8step2sim.do

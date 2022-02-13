@@ -1,0 +1,14 @@
+module lab03_design02_behavioral(A, F, C, G, W);
+	input F, C, G, W
+	output A
+
+	//farmer in opposing roo from goat and wolf
+	assign Room1 = (~F & G & W) | (F & ~G & ~W);
+	
+	//farmer in opposing room from cabbage and goat
+	assign Room2 = (~F & C & G) | (F & ~C & ~G);
+	
+	//alarm goes off in either of these cases
+	assign A = Room1 | Room2;
+	
+endmodule

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Nov 17 00:29:54 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : circuit_ol
+Top-level Entity Name : circuit_ol
+Family : Cyclone IV E
+Total logic elements : 2
+    Total combinational functions : 2
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

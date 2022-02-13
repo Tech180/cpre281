@@ -1,0 +1,80 @@
+# Compile of lab2step2.v was successful.
+vsim work.lab2step2
+# vsim work.lab2step2 
+# Start time: 09:39:04 on Sep 04,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab2step2(fast)
+add wave -position insertpoint  \
+sim:/lab2step2/C \
+sim:/lab2step2/G \
+sim:/lab2step2/F \
+sim:/lab2step2/Alarm
+force -freeze sim:/lab2step2/C 1'h0 0
+force -freeze sim:/lab2step2/G 1'h0 0
+force -freeze sim:/lab2step2/F 1'h0 0
+force -freeze sim:/lab2step2/Alarm 1'h1 0
+force -freeze sim:/lab2step2/Alarm 1'h1 0
+run 100
+force -freeze sim:/lab2step2/F 1'h0 0
+force -freeze sim:/lab2step2/F 1'h1 0
+run 100
+force -freeze sim:/lab2step2/G 1'h1 0
+force -freeze sim:/lab2step2/F 1'h0 0
+force -freeze sim:/lab2step2/Alarm 1'h0 0
+run 100
+force -freeze sim:/lab2step2/F 1'h1 0
+force -freeze sim:/lab2step2/Alarm 1'h1 0
+run 100
+force -freeze sim:/lab2step2/C 1'h1 0
+force -freeze sim:/lab2step2/G 1'h0 0
+force -freeze sim:/lab2step2/F 1'h0 0
+run 100
+force -freeze sim:/lab2step2/F 1'h1 0
+force -freeze sim:/lab2step2/Alarm 1'h0 0
+run 100
+force -freeze sim:/lab2step2/G 1'h1 0
+force -freeze sim:/lab2step2/F 1'h0 0
+force -freeze sim:/lab2step2/Alarm 1'h1 0
+run 100
+force -freeze sim:/lab2step2/F 1'h1 0
+run 100
+quit -sim
+# End time: 09:46:29 on Sep 04,2020, Elapsed time: 0:07:25
+# Errors: 0, Warnings: 5
+vsim work.lab2step1
+# vsim work.lab2step1 
+# Start time: 09:46:30 on Sep 04,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab2step1(fast)
+add wave -position insertpoint sim:/lab2step1/*
+force -freeze sim:/lab2step1/A 1'h0 0
+force -freeze sim:/lab2step1/B 1'h0 0
+force -freeze sim:/lab2step1/C 1'h0 0
+force -freeze sim:/lab2step1/F 1'h0 0
+run 100
+force -freeze sim:/lab2step1/C 1'h1 0
+run 100
+force -freeze sim:/lab2step1/B 1'h1 0
+force -freeze sim:/lab2step1/C 1'h0 0
+force -freeze sim:/lab2step1/F 1'h1 0
+run 100
+force -freeze sim:/lab2step1/C 1'h1 0
+force -freeze sim:/lab2step1/F 1'h0 0
+run 100
+force -freeze sim:/lab2step1/A 1'h1 0
+force -freeze sim:/lab2step1/B 1'h0 0
+force -freeze sim:/lab2step1/C 1'h0 0
+force -freeze sim:/lab2step1/F 1'h1 0
+run 100
+force -freeze sim:/lab2step1/C 1'h1 0
+force -freeze sim:/lab2step1/F 1'h0 0
+run 100
+force -freeze sim:/lab2step1/B 1'h1 0
+force -freeze sim:/lab2step1/C 1'h0 0
+force -freeze sim:/lab2step1/F 1'h1 0
+run 100
+force -freeze sim:/lab2step1/C 1'h1 0
+force -freeze sim:/lab2step1/F 1'h0 0
+run 100
+# End time: 09:50:26 on Sep 04,2020, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 1

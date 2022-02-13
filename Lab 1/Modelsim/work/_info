@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Program Files/modeltech64_2020.2/examples
+T_opt
+!s110 1598621902
+V?8`<W:QKY:=;?MRcBc?D93
+04 9 4 work lab1step1 fast 0
+=1-1866da11c3a6-5f4908ce-fa-2138
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1598624858
+VdQOz`iR4fTl5LdB;=TGJm2
+04 9 4 work lab1step2 fast 0
+=1-1866da11c3a6-5f491459-325-3384
+R1
+R2
+n@_opt1
+R3
+vlab1step1
+!s110 1598621872
+!i10b 1
+!s100 cI3j>oai2=UBfcaG@KRA>2
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`aU^KZd5NHi74V2c^O8cl0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dU:/CPR E 281/Lab 1/Modelsim
+w1598621796
+8U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step1/lab1step1.v
+FU:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step1/lab1step1.v
+!i122 0
+L0 20 19
+Z7 OL;L;2020.2;71
+r1
+!s85 0
+31
+!s108 1598621872.000000
+!s107 U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step1/lab1step1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step1/lab1step1.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vlab1step2
+Z9 !s110 1598624830
+!i10b 1
+!s100 Zh`@^Tc7PFXS0Y4MmfGfN3
+R4
+IV?zi@n:R0IB6HD>;=UVm20
+R5
+R6
+w1598624129
+8U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step2/lab1step2/lab1step2.v
+FU:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step2/lab1step2/lab1step2.v
+!i122 2
+L0 20 39
+R7
+r1
+!s85 0
+31
+!s108 1598624829.000000
+!s107 U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step2/lab1step2/lab1step2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step2/lab1step2/lab1step2.v|
+!i113 0
+R8
+R2
+vlab1step3
+R9
+!i10b 1
+!s100 BZN?MSc_bgSIVOT<`Pf:_1
+R4
+Ibe0Ck2HCM7:j]M7YZBiHa1
+R5
+R6
+w1589902703
+8U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step3/lab1step3.v
+FU:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step3/lab1step3.v
+!i122 3
+L0 19 42
+R7
+r1
+!s85 0
+31
+!s108 1598624830.000000
+!s107 U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step3/lab1step3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 1/Lab 1 CPR E 281_/Lab1/lab1step3/lab1step3.v|
+!i113 0
+R8
+R2

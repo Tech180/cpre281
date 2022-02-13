@@ -1,0 +1,88 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Program Files/modeltech64_2020.2/examples
+T_opt
+!s110 1600915946
+Vd`dL]c:^f4GHP;cAj0_ZK2
+Z1 04 9 4 work lab4step1 fast 0
+Z2 04 8 4 work tb_step1 fast 0
+=1-0050569b120b-5f6c09e9-3ae-2b9c
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1600916308
+V<YlcDZXPMPBgLYUmjMBfe1
+R2
+=1-0050569b120b-5f6c0b53-cf-1bd0
+R3
+R4
+n@_opt1
+R5
+T_opt2
+!s110 1600915508
+V;DO@0XB^@d?Heb4NKLaG61
+R1
+R2
+=1-0050569b120b-5f6c0833-232-1190
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt2
+R5
+R0
+vlab4step1
+Z6 !s110 1600916273
+!i10b 1
+!s100 XWoMUhWd=^j81Z`:[Tc@>0
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYeeOC:mo7aVzeXQ2EQ<O81
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 dU:/CPR E 281/Lab 4/lab4step1
+w1600916136
+8U:/CPR E 281/Lab 4/lab4step1/lab4step1.v
+FU:/CPR E 281/Lab 4/lab4step1/lab4step1.v
+!i122 3
+L0 1 29
+Z10 OL;L;2020.2;71
+r1
+!s85 0
+31
+!s108 1600916272.000000
+!s107 U:/CPR E 281/Lab 4/lab4step1/lab4step1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 4/lab4step1/lab4step1.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtb_step1
+R6
+!i10b 1
+!s100 ;odBQJ]YKLI;;N24NTjGf0
+R7
+IoBOPFJ[@4Z;3aO@IThQY?2
+R8
+R9
+w1600393332
+8U:/CPR E 281/Lab 4/lab4step1/tb_step1.v
+FU:/CPR E 281/Lab 4/lab4step1/tb_step1.v
+!i122 4
+L0 1 72
+R10
+r1
+!s85 0
+31
+!s108 1600916273.000000
+!s107 U:/CPR E 281/Lab 4/lab4step1/tb_step1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPR E 281/Lab 4/lab4step1/tb_step1.v|
+!i113 0
+R11
+R4

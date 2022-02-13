@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Alarm",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "F",
+					"strict" : false
+				},
+				{
+					"name" : "G",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

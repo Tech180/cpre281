@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/CPR E 281/Lab 6/binary_decimal_converter
+T_opt
+!s110 1602624497
+VJ6UbmSKMMA72_BZGb^^hl0
+Z1 04 9 4 work lab6step0 fast 0
+=1-0050569b2d0b-5f861bf0-240-2c1c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1602783784
+V03=:7b^cMNEVmh:Y4hCe20
+R1
+=1-0050569b6349-5f888a26-31b-2e24
+R2
+R3
+n@_opt1
+R4
+vadder_4bit
+Z5 !s110 1602783772
+!i10b 1
+!s100 D`aDbMCXmoGVn5FNdBcNR2
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcJG_<e`4Ob`oRKdY7W33c3
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 dU:/CPR E 281/Lab 6
+w1602623525
+8U:/CPR E 281/Lab 6/adder_4bit.v
+FU:/CPR E 281/Lab 6/adder_4bit.v
+!i122 13
+L0 20 74
+Z9 OL;L;2020.2;71
+r1
+!s85 0
+31
+Z10 !s108 1602783772.000000
+!s107 U:/CPR E 281/Lab 6/adder_4bit.v|
+!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|U:/CPR E 281/Lab 6/adder_4bit.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vbinary_decimal_converter
+R5
+!i10b 1
+!s100 7?iL6m?cCNL_ID2EBzMk=1
+R6
+IYG5d6_SBIldP<GZ:DT]^X0
+R7
+R8
+w1602783521
+8U:/CPR E 281/Lab 6/binary_decimal_converter.v
+FU:/CPR E 281/Lab 6/binary_decimal_converter.v
+!i122 14
+L0 1 15
+R9
+r1
+!s85 0
+31
+R10
+!s107 U:/CPR E 281/Lab 6/binary_decimal_converter.v|
+!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|U:/CPR E 281/Lab 6/binary_decimal_converter.v|
+!i113 0
+R11
+R3
+vfull_adder
+Z12 !s110 1602783773
+!i10b 1
+!s100 eLCQ98GP[]8CNFTVe?[4d2
+R6
+Idh[ie:j5_MlUd[jn]E6l80
+R7
+R8
+w1602624430
+8U:/CPR E 281/Lab 6/full_adder.v
+FU:/CPR E 281/Lab 6/full_adder.v
+!i122 15
+L0 20 37
+R9
+r1
+!s85 0
+31
+R10
+!s107 U:/CPR E 281/Lab 6/full_adder.v|
+!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|U:/CPR E 281/Lab 6/full_adder.v|
+!i113 0
+R11
+R3
+vlab6step0
+R12
+!i10b 1
+!s100 gfRZ[zPj;?FI^H8VbSX<;1
+R6
+II7Lh^P=1lz=dWDKmD`oTL3
+R7
+R8
+w1602622839
+8U:/CPR E 281/Lab 6/lab6step0.v
+FU:/CPR E 281/Lab 6/lab6step0.v
+!i122 16
+L0 20 63
+R9
+r1
+!s85 0
+31
+!s108 1602783773.000000
+!s107 U:/CPR E 281/Lab 6/lab6step0.v|
+!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|U:/CPR E 281/Lab 6/lab6step0.v|
+!i113 0
+R11
+R3

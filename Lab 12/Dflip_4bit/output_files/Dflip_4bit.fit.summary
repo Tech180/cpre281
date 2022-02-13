@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Nov 22 00:54:58 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : Dflip_4bit
+Top-level Entity Name : Dflip_4bit
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 0 / 6,272 ( 0 % )
+    Total combinational functions : 0 / 6,272 ( 0 % )
+    Dedicated logic registers : 0 / 6,272 ( 0 % )
+Total registers : 0
+Total pins : 11 / 92 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

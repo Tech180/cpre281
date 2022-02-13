@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Nov 22 00:54:50 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : Dflip_4bit
+Top-level Entity Name : Dflip_4bit
+Family : Cyclone IV E
+Total logic elements : 0
+    Total combinational functions : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

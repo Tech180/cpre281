@@ -1,0 +1,16 @@
+# Compile of new_circuit.v was successful.
+vsim -gui work.new_circuit
+# vsim -gui work.new_circuit 
+# Start time: 23:17:08 on Oct 07,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.new_circuit(fast)
+add wave -position insertpoint  \
+sim:/new_circuit/W \
+sim:/new_circuit/X \
+sim:/new_circuit/Y \
+sim:/new_circuit/Z \
+sim:/new_circuit/P
+do miniproject.do.txt
+# Causality operation skipped due to absence of debug database file
+# End time: 23:18:20 on Oct 07,2020, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2

@@ -1,0 +1,43 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/modeltech64_2020.2/examples
+T_opt
+!s110 1604039458
+VPU[1JMkQH]jCon`ahcna71
+04 7 4 work mux4to1 fast 0
+=1-0050569bedc5-5f9bb321-2cd-2c24
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.2;71
+vmux4to1
+!s110 1604039450
+!i10b 1
+!s100 UPIXM3bWUlZg;a:OoGRhm3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+Iohh;Z1UPXWSX?:Yi2Hc5e0
+VDg1SIo80bB@j0V0VzS_@n1
+dU:/CPR E 281/Lab 8/mux4to1
+w1604034896
+8U:/CPR E 281/Lab 8/mux4to1/mux4to1.v
+FU:/CPR E 281/Lab 8/mux4to1/mux4to1.v
+!i122 1
+L0 1 9
+OL;L;2020.2;71
+r1
+!s85 0
+31
+!s108 1604039449.000000
+!s107 U:/CPR E 281/Lab 8/mux4to1/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|U:/CPR E 281/Lab 8/mux4to1/mux4to1.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0

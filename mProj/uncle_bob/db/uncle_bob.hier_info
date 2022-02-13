@@ -1,0 +1,14 @@
+|uncle_bob
+B <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+W => inst6.IN0
+W => inst.IN0
+Y => inst6.IN1
+Y => inst7.IN2
+Y => inst2.IN0
+Z => inst6.IN2
+Z => inst3.IN0
+Z => inst5.IN2
+X => inst1.IN0
+X => inst5.IN0
+
+

@@ -1,0 +1,39 @@
+|register
+Out[0] <= inst1[0].DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= inst1[1].DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= inst1[2].DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= inst1[3].DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst1[3].ACLR
+CLRN => inst1[2].ACLR
+CLRN => inst1[1].ACLR
+CLRN => inst1[0].ACLR
+Clock => inst1[3].CLK
+Clock => inst1[2].CLK
+Clock => inst1[1].CLK
+Clock => inst1[0].CLK
+Load => mux2x1:inst.S
+In[0] => mux2x1:inst.l1[0]
+In[1] => mux2x1:inst.l1[1]
+In[2] => mux2x1:inst.l1[2]
+In[3] => mux2x1:inst.l1[3]
+
+
+|register|mux2x1:inst
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+l1[0] => Y.DATAB
+l1[1] => Y.DATAB
+l1[2] => Y.DATAB
+l1[3] => Y.DATAB
+l0[0] => Y.DATAA
+l0[1] => Y.DATAA
+l0[2] => Y.DATAA
+l0[3] => Y.DATAA
+
+

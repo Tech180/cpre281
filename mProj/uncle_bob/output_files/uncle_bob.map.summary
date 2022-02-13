@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 08 13:23:39 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : uncle_bob
+Top-level Entity Name : uncle_bob
+Family : Cyclone IV E
+Total logic elements : 1
+    Total combinational functions : 1
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

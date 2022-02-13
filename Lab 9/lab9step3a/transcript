@@ -1,0 +1,108 @@
+vsim -gui work.lab9step3a
+# vsim -gui work.lab9step3a 
+# Start time: 08:24:55 on Nov 06,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(48): (vopt-2912) Port 'Data' not found in module 'lab9step3' (1st connection).
+# ** Error (suppressible): U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(41): (vopt-2912) Port 'Data' not found in module 'lab9step3' (1st connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# End time: 08:24:58 on Nov 06,2020, Elapsed time: 0:00:03
+# Errors: 2, Warnings: 1
+# Compile of lab9step3a.v was successful.
+# Compile of lab9step3.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab9step3a
+# vsim -gui work.lab9step3a 
+# Start time: 08:29:58 on Nov 06,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(47): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 4, found 3.
+# ** Warning: U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(47): (vopt-2718) [TFMPC] - Missing connection for port 'Qn'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.lab9step3a(fast)
+add wave -position insertpoint  \
+sim:/lab9step3a/Clk \
+sim:/lab9step3a/D \
+sim:/lab9step3a/Q \
+sim:/lab9step3a/Qn
+do lab9step2and3-1.do
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 08:38:04 on Nov 06,2020, Elapsed time: 0:08:06
+# Errors: 0, Warnings: 4
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 9/lab9step3a/lab9step3.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 08:38:56 on Nov 06,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 9/lab9step3a/lab9step3.v 
+# -- Compiling module lab9step3
+# 
+# Top level modules:
+# 	lab9step3
+# End time: 08:38:57 on Nov 06,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 08:38:57 on Nov 06,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v 
+# -- Compiling module lab9step3a
+# 
+# Top level modules:
+# 	lab9step3a
+# End time: 08:38:58 on Nov 06,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -gui work.lab9step3a
+# vsim -gui work.lab9step3a 
+# Start time: 08:39:05 on Nov 06,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(47): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 4, found 3.
+# ** Warning: U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(47): (vopt-2718) [TFMPC] - Missing connection for port 'Qn'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.lab9step3a(fast)
+add wave -position insertpoint  \
+sim:/lab9step3a/Clk \
+sim:/lab9step3a/D \
+sim:/lab9step3a/Q \
+sim:/lab9step3a/Qn
+do lab9step2and3-1.do
+quit -sim
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.mpf).  File can not be renamed.
+# End time: 08:47:10 on Nov 06,2020, Elapsed time: 0:08:05
+# Errors: 1, Warnings: 3
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 9/lab9step3a/lab9step3.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 08:47:55 on Nov 06,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 9/lab9step3a/lab9step3.v 
+# -- Compiling module lab9step3
+# 
+# Top level modules:
+# 	lab9step3
+# End time: 08:47:56 on Nov 06,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v}
+# Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 08:47:56 on Nov 06,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v 
+# -- Compiling module lab9step3a
+# 
+# Top level modules:
+# 	lab9step3a
+# End time: 08:47:57 on Nov 06,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -gui work.lab9step3a
+# vsim -gui work.lab9step3a 
+# Start time: 08:48:05 on Nov 06,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(49): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 4, found 3.
+# ** Warning: U:/CPR E 281/Lab 9/lab9step3a/lab9step3a.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'Qn'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.lab9step3a(fast)
+add wave -position insertpoint  \
+sim:/lab9step3a/Clk \
+sim:/lab9step3a/D \
+sim:/lab9step3a/Q \
+sim:/lab9step3a/Qn
+do lab9step2and3-1.do
+# End time: 08:55:05 on Nov 06,2020, Elapsed time: 0:07:00
+# Errors: 0, Warnings: 3

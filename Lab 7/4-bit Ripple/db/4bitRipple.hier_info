@@ -1,0 +1,74 @@
+|4bitRipple
+S2 <= FA:inst.S
+X2 => FA:inst.X
+Y2 => FA:inst.Y
+X1 => FA:inst2.X
+Y1 => FA:inst2.Y
+X0 => FA:inst3.X
+Y0 => FA:inst3.Y
+Cin => FA:inst3.Cin
+S1 <= FA:inst2.S
+S0 <= FA:inst3.S
+Overflow <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+X3 => FA:inst1.X
+Y3 => FA:inst1.Y
+Cout <= FA:inst1.Cout
+S3 <= FA:inst1.S
+
+
+|4bitRipple|FA:inst
+X => S.IN0
+X => Cout.IN0
+X => Cout.IN0
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|4bitRipple|FA:inst2
+X => S.IN0
+X => Cout.IN0
+X => Cout.IN0
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|4bitRipple|FA:inst3
+X => S.IN0
+X => Cout.IN0
+X => Cout.IN0
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|4bitRipple|FA:inst1
+X => S.IN0
+X => Cout.IN0
+X => Cout.IN0
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

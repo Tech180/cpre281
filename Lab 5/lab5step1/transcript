@@ -1,0 +1,35 @@
+# Compile of lab5step1.v was successful.
+vsim -gui work.lab5step1
+# vsim -gui work.lab5step1 
+# Start time: 00:44:35 on Oct 01,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab5step1(fast)
+add wave -position insertpoint  \
+sim:/lab5step1/x0 \
+sim:/lab5step1/x1 \
+sim:/lab5step1/x2 \
+sim:/lab5step1/x3 \
+sim:/lab5step1/x4 \
+sim:/lab5step1/x5 \
+sim:/lab5step1/x6 \
+sim:/lab5step1/x7 \
+sim:/lab5step1/x8 \
+sim:/lab5step1/x9 \
+sim:/lab5step1/x10 \
+sim:/lab5step1/x11 \
+sim:/lab5step1/x12 \
+sim:/lab5step1/x13 \
+sim:/lab5step1/x14 \
+sim:/lab5step1/x15 \
+sim:/lab5step1/f \
+sim:/lab5step1/g \
+sim:/lab5step1/h \
+sim:/lab5step1/i
+do lab5step1.do
+# Cannot open macro file: lab5step1.do
+do U:/CPR E 281/Lab 5/lab5step1/lab5step1.do.txt
+# Cannot open macro file: U:/CPR
+do U:/CPR\ E\ 281/Lab\ 5/lab5step1/lab5step1.do.txt
+# Causality operation skipped due to absence of debug database file
+# End time: 00:50:20 on Oct 01,2020, Elapsed time: 0:05:45
+# Errors: 0, Warnings: 16

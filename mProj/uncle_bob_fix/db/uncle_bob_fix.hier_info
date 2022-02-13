@@ -1,0 +1,29 @@
+|uncle_bob_fix
+P <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+W => inst3.IN0
+W => inst1.IN0
+W => uncle_bob:inst6.W
+Y => inst2.IN1
+Y => inst1.IN2
+Y => uncle_bob:inst6.Y
+Z => inst2.IN2
+Z => inst1.IN3
+Z => uncle_bob:inst6.Z
+X => inst1.IN1
+X => uncle_bob:inst6.X
+
+
+|uncle_bob_fix|uncle_bob:inst6
+B <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+W => inst6.IN0
+W => inst.IN0
+Y => inst6.IN1
+Y => inst7.IN2
+Y => inst2.IN0
+Z => inst6.IN2
+Z => inst3.IN0
+Z => inst5.IN2
+X => inst1.IN0
+X => inst5.IN0
+
+

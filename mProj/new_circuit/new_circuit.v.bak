@@ -1,0 +1,5 @@
+module new_circuit(W, X, Y, Z, A);
+	input W, X, Y, Z;
+	output A;
+	
+	assign A = (X & ~Y & Z) | (~W & X & Z) | (~W & ~X & Y) | (~X & Y & Z);

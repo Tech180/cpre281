@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Nov 17 00:47:21 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : lab11step2
+Top-level Entity Name : lab11step2
+Family : Cyclone IV E
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,20 @@
+{U:/CPR E 281/Lab 5/lab5step1/seven_seg_decoder.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 5/lab5step1/seven_seg_decoder.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} {U:/CPR E 281/Lab 5/lab5step1/lab5step1.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 5/lab5step1/lab5step1.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module lab5step1
+
+Top level modules:
+	lab5step1
+
+} {} {}} {U:/CPR E 281/Lab 5/lab5step1/lab5step1_inst.v} {0 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 5/lab5step1/lab5step1_inst.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+** Error: (vlog-13069) U:/CPR E 281/Lab 5/lab5step1/lab5step1_inst.v(20): near "lab5step1_inst": syntax error, unexpected IDENTIFIER.
+** Error: U:/CPR E 281/Lab 5/lab5step1/lab5step1_inst.v(20): (vlog-13205) Syntax error found in the scope following 'lab5step1'. Is there a missing '::'?
+
+} {3.0 5.0} {}}

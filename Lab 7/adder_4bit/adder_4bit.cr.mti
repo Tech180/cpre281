@@ -1,0 +1,15 @@
+{U:/CPR E 281/Lab 7/adder_4bit/adder_4bit.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 7/adder_4bit/adder_4bit.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module adder_4bit
+
+Top level modules:
+	adder_4bit
+
+} {} {}} {U:/CPR E 281/Lab 7/adder_4bit/FA.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 7/adder_4bit/FA.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}}

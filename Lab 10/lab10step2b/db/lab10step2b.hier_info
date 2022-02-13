@@ -1,0 +1,20 @@
+|lab10step2b
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+PRN => inst3.PRESET
+PRN => inst.PRESET
+PRN => inst1.PRESET
+PRN => inst2.PRESET
+CLRN => inst3.ACLR
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+Enable => inst.IN0
+Clock => inst.CLK
+Clock => inst1.CLK
+Clock => inst2.CLK
+Clock => inst3.CLK
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

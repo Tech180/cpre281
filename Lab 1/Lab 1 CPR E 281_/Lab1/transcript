@@ -1,0 +1,21 @@
+# Compile of lab1step1.v was successful.
+vsim -gui work.lab1step1
+# vsim -gui work.lab1step1 
+# Start time: 15:23:34 on May 18,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab1step1(fast)
+add wave -position insertpoint sim:/lab1step1/*
+quit -sim
+# End time: 15:24:40 on May 18,2020, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+# Compile of lab1step1.v was successful.
+# Compile of lab1step1.v was successful.
+vsim -gui work.lab1step1
+# vsim -gui work.lab1step1 
+# Start time: 15:29:38 on May 18,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab1step1(fast)
+add wave -position insertpoint sim:/lab1step1/*
+force -freeze sim:/lab1step1/B 1'h0 0
+force -freeze sim:/lab1step1/A 1'h0 0
+run 100

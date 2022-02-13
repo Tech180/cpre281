@@ -1,0 +1,68 @@
+# Compile of OnebitAdder.v was successful.
+# Compile of 4bitRipple.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of OnebitAdder.v was successful.
+# Compile of 4bitRipple.v was successful.
+# Compile of Overflow.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Overflow
+# vsim -gui work.Overflow 
+# Start time: 14:30:19 on Oct 22,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.Overflow(fast)
+add wave -position insertpoint  \
+sim:/Overflow/X3 \
+sim:/Overflow/Y3 \
+sim:/Overflow/X2 \
+sim:/Overflow/Y2 \
+sim:/Overflow/X1 \
+sim:/Overflow/Y1 \
+sim:/Overflow/X0 \
+sim:/Overflow/Y0 \
+sim:/Overflow/Control \
+sim:/Overflow/Cout \
+sim:/Overflow/Overflow \
+sim:/Overflow/S3 \
+sim:/Overflow/S2 \
+sim:/Overflow/S1 \
+sim:/Overflow/S0
+do lab07sim.do
+# Cannot open macro file: lab07sim.do
+do lab7sim.do
+# ** UI-Msg: (vish-4014) No objects found matching '/Overflow'.
+# Error in macro ./lab7sim.do line 16
+# ** UI-Msg: (vish-4014) No objects found matching '/Overflow'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/X3 \
+# sim:/X2 \
+# sim:/X1 \
+# sim:/X0 \
+# sim:/Y3 \
+# sim:/Y2 \
+# sim:/Y1 \
+# sim:/Y0 \
+# sim:/Control \
+# sim:/S3 \
+# sim:/S2 \
+# s..."
+do lab7sim.do
+# ** UI-Msg: (vish-4014) No objects found matching '/Overflow'.
+# Error in macro ./lab7sim.do line 16
+# ** UI-Msg: (vish-4014) No objects found matching '/Overflow'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/X3 \
+# sim:/X2 \
+# sim:/X1 \
+# sim:/X0 \
+# sim:/Y3 \
+# sim:/Y2 \
+# sim:/Y1 \
+# sim:/Y0 \
+# sim:/Control \
+# sim:/S3 \
+# sim:/S2 \
+# s..."
+# End time: 14:35:07 on Oct 22,2020, Elapsed time: 0:04:48
+# Errors: 0, Warnings: 8

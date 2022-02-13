@@ -1,0 +1,22 @@
+module truth_table_verilog_example(F,A,B,C);
+	input A,B,C;
+	output F;
+	reg F;
+	
+	always @(A or B or C)
+	begin 
+		case({A,B,C})
+			
+			3'b000: F = 'b0;
+			3'b000: F = 'b0;
+			3'b000: F = 'b0;
+			3'b000: F = 'b0;
+			3'b000: F = 'b0;
+			3'b000: F = 'b0;
+			3'b000: F = 'b0;
+			3'b000: F = 'b0;
+		endcase
+	end
+	
+endmodule
+			

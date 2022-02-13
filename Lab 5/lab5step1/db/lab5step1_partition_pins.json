@@ -1,0 +1,185 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "f[6]",
+					"strict" : false
+				},
+				{
+					"name" : "f[5]",
+					"strict" : false
+				},
+				{
+					"name" : "f[4]",
+					"strict" : false
+				},
+				{
+					"name" : "f[3]",
+					"strict" : false
+				},
+				{
+					"name" : "f[2]",
+					"strict" : false
+				},
+				{
+					"name" : "f[1]",
+					"strict" : false
+				},
+				{
+					"name" : "f[0]",
+					"strict" : false
+				},
+				{
+					"name" : "g[6]",
+					"strict" : false
+				},
+				{
+					"name" : "g[5]",
+					"strict" : false
+				},
+				{
+					"name" : "g[4]",
+					"strict" : false
+				},
+				{
+					"name" : "g[3]",
+					"strict" : false
+				},
+				{
+					"name" : "g[2]",
+					"strict" : false
+				},
+				{
+					"name" : "g[1]",
+					"strict" : false
+				},
+				{
+					"name" : "g[0]",
+					"strict" : false
+				},
+				{
+					"name" : "h[6]",
+					"strict" : false
+				},
+				{
+					"name" : "h[5]",
+					"strict" : false
+				},
+				{
+					"name" : "h[4]",
+					"strict" : false
+				},
+				{
+					"name" : "h[3]",
+					"strict" : false
+				},
+				{
+					"name" : "h[2]",
+					"strict" : false
+				},
+				{
+					"name" : "h[1]",
+					"strict" : false
+				},
+				{
+					"name" : "h[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "x0",
+					"strict" : false
+				},
+				{
+					"name" : "x3",
+					"strict" : false
+				},
+				{
+					"name" : "x2",
+					"strict" : false
+				},
+				{
+					"name" : "x1",
+					"strict" : false
+				},
+				{
+					"name" : "x4",
+					"strict" : false
+				},
+				{
+					"name" : "x7",
+					"strict" : false
+				},
+				{
+					"name" : "x6",
+					"strict" : false
+				},
+				{
+					"name" : "x5",
+					"strict" : false
+				},
+				{
+					"name" : "x8",
+					"strict" : false
+				},
+				{
+					"name" : "x11",
+					"strict" : false
+				},
+				{
+					"name" : "x10",
+					"strict" : false
+				},
+				{
+					"name" : "x9",
+					"strict" : false
+				},
+				{
+					"name" : "x12",
+					"strict" : false
+				},
+				{
+					"name" : "x15",
+					"strict" : false
+				},
+				{
+					"name" : "x14",
+					"strict" : false
+				},
+				{
+					"name" : "x13",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

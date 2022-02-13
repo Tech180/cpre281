@@ -1,0 +1,8 @@
+{U:/CPR E 281/mProj/new_circuit/new_circuit.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/mProj/new_circuit/new_circuit.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module new_circuit
+
+Top level modules:
+	new_circuit
+
+} {} {}}

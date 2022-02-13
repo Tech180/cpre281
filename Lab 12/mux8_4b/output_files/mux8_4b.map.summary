@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Nov 22 00:12:22 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : mux8_4b
+Top-level Entity Name : mux8_4b
+Family : Cyclone IV E
+Total logic elements : 20
+    Total combinational functions : 20
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 39
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

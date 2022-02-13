@@ -1,0 +1,19 @@
+# Compile of lab11step2.v was successful.
+# Compile of circuit_nsl.v was successful.
+# Compile of circuit_ol.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab11step2
+# vsim -gui work.lab11step2 
+# Start time: 00:49:38 on Nov 17,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab11step2(fast)
+add wave -position insertpoint  \
+sim:/lab11step2/PRN \
+sim:/lab11step2/CLRN \
+sim:/lab11step2/Clock \
+sim:/lab11step2/w \
+sim:/lab11step2/Out
+do lab11.do
+# Causality operation skipped due to absence of debug database file
+# End time: 01:04:07 on Nov 17,2020, Elapsed time: 0:14:29
+# Errors: 0, Warnings: 6

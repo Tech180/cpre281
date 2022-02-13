@@ -1,0 +1,31 @@
+|lab11step2
+Out[0] <= circuit_ol:inst5.Z0
+Out[1] <= circuit_ol:inst5.Z1
+Out[2] <= circuit_ol:inst5.Z2
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+Clock => inst.CLK
+Clock => inst1.CLK
+w => circuit_nsl:inst4.w
+PRN => inst1.PRESET
+PRN => inst.PRESET
+
+
+|lab11step2|circuit_ol:inst5
+Q1 => Decoder0.IN0
+Q0 => Decoder0.IN1
+Z2 <= Z2.DB_MAX_OUTPUT_PORT_TYPE
+Z1 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Z0 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab11step2|circuit_nsl:inst4
+w => Y1.IN0
+w => Y0.IN0
+Q1 => Y1.IN1
+Q0 => Y1.IN1
+Q0 => Y0.IN1
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+

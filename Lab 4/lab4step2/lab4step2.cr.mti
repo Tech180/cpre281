@@ -1,0 +1,36 @@
+{U:/CPR E 281/Lab 4/lab4step2/lab4step2.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 4/lab4step2/lab4step2.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module lab4step2
+
+Top level modules:
+	lab4step2
+
+} {} {}} {U:/CPR E 281/Lab 4/lab4step2/Normal.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 4/lab4step2/Normal.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module Normal
+
+Top level modules:
+	Normal
+
+} {} {}} {U:/CPR E 281/Lab 4/lab4step2/powersaving.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 4/lab4step2/powersaving.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module powersaving
+
+Top level modules:
+	powersaving
+
+} {} {}} {U:/CPR E 281/Lab 4/lab4step2/Multiplexer.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 4/lab4step2/Multiplexer.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module Multiplexer
+
+Top level modules:
+	Multiplexer
+
+} {} {}} {U:/CPR E 281/Lab 4/lab4step2/tb_step2.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 4/lab4step2/tb_step2.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module tb_step2
+
+Top level modules:
+	tb_step2
+
+} {} {}}

@@ -1,0 +1,22 @@
+{U:/CPR E 281/Lab 11/lab11step2/circuit_ol.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 11/lab11step2/circuit_ol.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module circuit_ol
+
+Top level modules:
+	circuit_ol
+
+} {} {}} {U:/CPR E 281/Lab 11/lab11step2/circuit_nsl.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 11/lab11step2/circuit_nsl.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module circuit_nsl
+
+Top level modules:
+	circuit_nsl
+
+} {} {}} {U:/CPR E 281/Lab 11/lab11step2/lab11step2.v} {1 {vlog -work work -vopt -stats=none {U:/CPR E 281/Lab 11/lab11step2/lab11step2.v}
+Model Technology ModelSim SE-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+-- Compiling module lab11step2
+
+Top level modules:
+	lab11step2
+
+} {} {}}
